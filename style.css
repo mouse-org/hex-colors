@@ -1,0 +1,75 @@
+body {
+  background-color: white;
+  font-family: "Open Sans", sans-serif;
+  padding: 50px 25px 5px;
+  font-size: 30px;
+  margin: 0;
+  text-align: center;
+}
+
+.color-labels {
+  font-size: 20px;
+  margin: 0;
+}
+
+#white-label {
+  color: #FFF;
+}
+
+input {
+  padding: 5px;
+  margin: 5px;
+  width: 40px;
+  font-size: 30px;
+  text-align: center;
+}
+
+button {
+  padding: 5px;
+  margin: 20px 5px 10px;
+  font-size: 20px;
+  text-align: center;
+  position: relative;
+  top: -5px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+h1 {
+  font-family: "Arial", sans-serif;
+  font-size: 32px;
+}
+
+#FFF {
+  color: #FFF;
+}
+
+#DDD {
+  color: #DDD;
+}
+
+#AAA {
+  color: #AAA;
+}
+
+#888 {
+  color: #888;
+}
+
+#555 {
+  color: #555;
+}
+
+#333 {
+  color: #333;
+}
+
+#000 {
+  color: 000;
+}
+
+
+
+
