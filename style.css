@@ -1,7 +1,7 @@
 body {
   background-color: white;
   font-family: "Open Sans", sans-serif;
-  padding: 50px 25px 5px;
+  padding: 20px 25px 5px;
   font-size: 30px;
   margin: 0;
   text-align: center;
@@ -19,7 +19,7 @@ body {
 input {
   padding: 5px;
   margin: 5px;
-  width: 40px;
+  width: 60px;
   font-size: 30px;
   text-align: center;
 }
@@ -35,11 +35,13 @@ button {
 
 h3 {
   font-size: 20px;
+  margin: 10px;
 }
 
 h1 {
   font-family: "Arial", sans-serif;
   font-size: 32px;
+  margin: 10px;
 }
 
 #FFF {
@@ -69,7 +71,3 @@ h1 {
 #000 {
   color: 000;
 }
-
-
-
-
