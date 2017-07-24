@@ -3,7 +3,7 @@ $( document ).ready(function() {
   document.getElementById("green-dec").disabled = true;
   document.getElementById("blue-dec").disabled = true;
 
-  $( "input" ).keyup(function() {
+  $( "input" ).keypress(function() {
     update();
   })
   $( "#change" ).click(function() {
