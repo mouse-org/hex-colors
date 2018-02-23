@@ -3,7 +3,7 @@ $( document ).ready(function() {
   document.getElementById("green-dec").disabled = true;
   document.getElementById("blue-dec").disabled = true;
 
-  $( "input" ).keypress(function() {
+  $( "input" ).keyup(function() {
     update();
   })
   $( "#change" ).click(function() {
@@ -17,7 +17,7 @@ function update() {
 
   function badInput(input) {
     $( input ).val("");
-    alert("Use only Hex digits: 0123456789ABCDEF")
+    alert("Use only 2 digit numbers with Hex digits: 0123456789ABCDEF")
   }
 
   function updateDecimal(hexId, hexNum) {
@@ -73,6 +73,8 @@ function update() {
       } else {
         badInput(colorInput);
       }
+    } else if (hexColor.length > 2){
+      badInput(colorInput);
     }
 
     updateDecimal(colorInput, hex);
